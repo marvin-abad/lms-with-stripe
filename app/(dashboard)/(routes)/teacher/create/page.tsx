@@ -45,6 +45,7 @@ const Create = () => {
         try {
             const response = await axios.post("/api/course", values) // send post request to the api/course endpoint with the values data as the request payload
             router.push(`/teacher/course/${response.data.id}`) // if the post request is succesfull, it directs the user to a new route
+            toast.success("Course Create Successfully")
         } catch {
            toast.error("error") // if error
         }
