@@ -29,6 +29,7 @@
     "mongodb": "^6.1.0",
     "next": "13.4.12",
     "postcss": "8.4.31",
+    "prisma": "^5.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.47.0",
@@ -38,9 +39,6 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "zod": "^3.22.4"
-  },
-  "devDependencies": {
-    "prisma": "^5.4.2"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
